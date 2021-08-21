@@ -1,4 +1,4 @@
-FROM alpine:3.4
+FROM alpine:latest
 RUN apk add --update nodejs
 
 ENV PORT 3000
